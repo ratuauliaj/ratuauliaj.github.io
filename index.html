@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.313">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Ratu Aulia Japano">
+<meta name="dcterms.date" content="2022-10-10">
+
+<title>Analisis Pengaruh Ekspor Kakao ke Amerika Serikat Terhadap Nilai Tukar Rupiah Tahun 2010-2021</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/quarto.js"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="index_files/libs/quarto-html/anchor.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="index_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Analisis Pengaruh Ekspor Kakao ke Amerika Serikat Terhadap Nilai Tukar Rupiah Tahun 2010-2021</h1>
+<p class="subtitle lead">Metode Penelitian Politeknik APP Jakarta</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Ratu Aulia Japano </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 10, 2022</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="poltekapp.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">logo APP muncul secara random lalalala</figcaption><p></p>
+</figure>
+</div>
+<section id="pendahuluan" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="pendahuluan"><span class="header-section-number">1</span> Pendahuluan</h2>
+<section id="latar-belakang" class="level3" data-number="1.1">
+<h3 data-number="1.1" class="anchored" data-anchor-id="latar-belakang"><span class="header-section-number">1.1</span> Latar belakang</h3>
+<p>Pada Peraturan Pemerintah Nomor 10 Tahun 2021, ekspor merupakan kegiatan mengeluarkan barang dari daerah pabean. Daerah pabean merupakan suatu daerah milik Republik Indonesia yang terdiri dari wilayah darat, perairan, dan udara yang juga mencakup seluruh daerah tertentu yang berada dalam Zona Ekonomi Eksklusif (ZEE). Kakao adalah salah satu komoditas ekspor dari subsektor perkebunan yang merupakan komoditas unggulan nasional yang memberikan sumbangan devisa ketiga terbesar setelah kelapa sawit dan karet. Kakao juga menempati luas areal keempat terbesar untuk subsektor perkebunan setelah kelapa sawit, kelapa dan karet. Hal ini menunjukkan bahwa kakao merupakan komoditas yang sangat penting bagi perekonomian Indonesia, (Hasibuan et al., 2012).</p>
+<p>Kakao merupakan komoditas andalan perkebunan yang peranannya cukup penting bagi perekonomian nasional, khususnya sebagai penyedia lapangan kerja, sumber pendapatan dan devisa negara. Disamping itu kakao juga berperan dalam mendorong pengembangan wilayah dan pengembangan agroindustri. Indonesia merupakan produsen kakao terbesar ketiga di dunia setelah negara Pantai Gading dan Ghana. Daerah penghasil kakao Indonesia adalah sebagai berikut: Sulawesi Selatan 184.000 ton (28,26%), Sulawesi Tengah 137.000 ton (21,04%), Sulawesi Tenggara 111.000 ton (17,05%), Sumatera Utara 51.000 ton (7,85%), Kalimantan Timur 25.000 ton (3,84%), Lampung 21.000 ton (3,23%) dan daerah lainnya 122.000 ton (18,74%).</p>
+<p>Nilai tukar atau kurs (exchange rate) satu mata uang terhadap lainnya merupakan bagian dari proses valuta asing. Nilai tukar merupakan jumlah mata uang dalam negeri yang harus dibayarkan untuk memperoleh satu unit mata uang asing. Naik turunnya nilai tukar mata uang atau kurs valuta asing bisa terjadi dengan berbagai cara, yakni bisa dengan cara dilakukan secara resmi oleh pemerintah suatu negara yang menganut sistem managed floating exchange rate, atau bisa juga karena tarik menariknya kekuatan‐kekuatan penawaran dan permintaan di dalam pasar (market mechanism) dan lazimnya perubahan nilai tukar mata uang.</p>
+</section>
+<section id="ruang-lingkup" class="level3" data-number="1.2">
+<h3 data-number="1.2" class="anchored" data-anchor-id="ruang-lingkup"><span class="header-section-number">1.2</span> Ruang lingkup</h3>
+<p>Penelitian ini ditujukan untuk membandingkan data nilai tukar rupiah yang diambil dari Badan Pusat Statistik (BPS) pada tahun 2010-2021 dengan menggunakan data nilai ekspor kakao dari negara Indonesia ke negara Amerika Serikat.</p>
+</section>
+<section id="rumusan-masalah" class="level3" data-number="1.3">
+<h3 data-number="1.3" class="anchored" data-anchor-id="rumusan-masalah"><span class="header-section-number">1.3</span> Rumusan masalah</h3>
+<p>Berdasarkan uraian latar belakang pada masalah tersebut, maka terdapat beberapa idikator yang menjadi rumusan masalah dalam penelitian ini, adapun yang menjadi tujuan dari penelitian ini adalah sebagai berikut:</p>
+<ol type="1">
+<li>Apakah nilai tukar rupiah berpengaruh terhadap nilai ekspor kakao Indonesia ke negara Amerika Serikat pada tahun 2010-2021?</li>
+</ol>
+</section>
+<section id="tujuan-dan-manfaat-penelitian" class="level3" data-number="1.4">
+<h3 data-number="1.4" class="anchored" data-anchor-id="tujuan-dan-manfaat-penelitian"><span class="header-section-number">1.4</span> Tujuan dan manfaat penelitian</h3>
+<p>Adapun yang menjadi tujuan pada penelitian ini, yaitu:</p>
+<ol type="1">
+<li>Untuk mengetahui pengaruh ekspor kakao ke Amerika Serikat terhadap nilai tukar rupiah selama 11 tahun terakhir.</li>
+</ol>
+<p>Adapun manfaat yang diperoleh pada penelitian ini, yaitu:</p>
+<ol type="1">
+<li>Untuk melihat bagaimana perkembangan nilai tukar rupiah terhadap Amerika Serikat selama 11 tahun terakhir.</li>
+</ol>
+</section>
+</section>
+<section id="studi-pustaka" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="studi-pustaka"><span class="header-section-number">2</span> Studi pustaka</h2>
+<section id="perdagangan-internasional" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="perdagangan-internasional"><span class="header-section-number">2.1</span> Perdagangan Internasional</h3>
+<p>Perdagangan didefinisikan sebagai pertukaran barang dan jasa atau uang yang saling menguntungkan atau memberi manfaat dan didasarkan atas kehendak sukarela dari masing-masing pihak. Sedangkan perdagangan internasional dapat didefinisikan sebagai transaksi bisnis antara pihak-pihak dari lebih daripada satu negara. Transaksi bisnis ini contohnya adalah ekspor produk dari suatu negara ke negara lain, investasi pembangunan pabrik di negara asing, pembelian bahan baku dari luar negeri, dan memproduksi salah satu bagian produk di luar negeri dan merakitnya di dalam negeri. Yang melakukan perdagangan atau bisnis adalah penduduk suatu negara dengan penduduk negara lain. Penduduk bias seorang warga negara biasa, sebuah perusahaan, sebuah lembaga pemerintah, atau sebuah organisasi nirlaba.</p>
+</section>
+<section id="definisi-kurs-dollar" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="definisi-kurs-dollar"><span class="header-section-number">2.2</span> Definisi Kurs Dollar</h3>
+<p>Dalam pengertiannya, kurs untuk kurs dolar AS merupakan suatu istilah yang cukup sering digunakan saat ada penukaran uang asing dengan uang rupiah atau sebaliknya. Kurs adalah harga suatu mata uang dari suatu negara terhadap mata uang yang berasal dari negara lainnya. Kurs bisa dinilai atau dinyatakan dengan mata uang dari negara lain. Kurs adalah suatu perbandingan nilai, ketika ada pertukaran antar dua mata uang yang saling berbeda, maka di dalamnya akan menghasilkan perbandingan pada nilai atau harga dari mata uang itu, salah satunya kurs dolar terhadap rupiah.</p>
+<p>Kurs dolar, seperti kurs mata uang lain, juga bisa mengalami dua macam perubahan di dalamnya, yakni apresiasi dan juga depresiasi. Apresiasi adalah suatu peningkatan mata uang terhadap mata uang asing lainnya yang terjadi karena adanya daya tarik yang sangat kuat antara permintaan dan penawaran yang ada di pasar valuta asing. Apabila mata uang dari negara lain mengalami suatu apresiasi pada mata uang dari negara lain, maka akan menyebabkan kegiatan ekspor menjadi lebih mahal dan kegiatan impor menjadi murah.</p>
+<p>Sedangkan depresiasi adalah suatu penurunan pada nilai mata uang lokal terhadap mata uang dari negara lain. Apabila mata uang lokal mengalami depresiasi atas mata uang dari negara lain, maka akan menyebabkan kegiatan ekspor menjadi lebih murah dan kegiatan impor menjadi lebih mahal.</p>
+</section>
+</section>
+<section id="metode-penelitian" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="metode-penelitian"><span class="header-section-number">3</span> Metode penelitian</h2>
+<section id="data" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="data"><span class="header-section-number">3.1</span> Data</h3>
+<p>Pendekatan yang digunakan pada penulisan ini merupakan pendekatan kuantitatif yang berbentuk asosiatif. Berbentuk asosiatif karena tujuan dari penelitian ini sendiri adalah untuk mengetahui hubungan suatu variabel dengan variabel lainnya. Adapun tujuan dari penelitian ini adalah untuk mengetahui pengaruh ekspor kakao ke Amerika Serikat terhadap nilai tukar rupiah tahun 2010-2021. Data tersebut diperoleh dari website BPS.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.4.0      ✔ purrr   1.0.1 
+✔ tibble  3.1.8      ✔ dplyr   1.0.10
+✔ tidyr   1.2.1      ✔ stringr 1.5.0 
+✔ readr   2.1.3      ✔ forcats 0.5.2 
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>dat<span class="ot">&lt;-</span><span class="fu">read_excel</span> (<span class="st">'Nilai Kurs Kakao.xlsx'</span>)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data=</span>dat, <span class="fu">aes</span>(<span class="at">x=</span>X, <span class="at">y=</span>Y))<span class="sc">+</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">color=</span><span class="st">'purple'</span>, <span class="at">size=</span><span class="dv">2</span>)<span class="sc">+</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"Tabel 1. Hubungan Antara Ekspor Kakao Terhadap Nilai Tukar"</span>,</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>       <span class="at">x=</span><span class="st">"Nilai Ekspor"</span>,</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>       <span class="at">y=</span><span class="st">"Nilai Tukar"</span>,</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>       <span class="at">caption =</span> <span class="st">"Sumber: Badan Pusat Statistik"</span>) <span class="sc">+</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_classic</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div id="fig-mpg" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="index_files/figure-html/fig-mpg-1.png" class="img-fluid figure-img" width="672"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;1: Hubungan Antara Ekspor Kakao Terhadap Nilai Tukar</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="metode-analisis" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="metode-analisis"><span class="header-section-number">3.2</span> Metode analisis</h3>
+<p>Penelitian ini menggunakan metode pendekatan yang bersifat kuantitatif. Sugiyono (2018) menyatakan bahwa data kuantitatif merupakan metode penelitian yang berlandaskan positivistic (data konkrit), data penelitian berupa angka-angka yang akan diukur menggunakan statistik sebagai alat uji penghitungan, berkaitan dengan masalah yang diteliti untuk menghasilkan suatu kesimpulan. Metode Deskriptif digunakan untuk membuat gambaran secara sistematis dan faktual mengenai gambaran perkembangan dari setiap variabel di dalam penelitian yaitu ekspor, impor dan pertumbuhan ekonomi Indonesia. Selanjutnya analisis regresi digunakan untuk menganalisis pengaruh ekspor kakao ke Amerika Serikat terhadap nilai tukar rupiah tahun 2010-2021. Rumus yang digunakan untuk regresi, sebagai berikut:</p>
+<p>y_t=β_0+β_1 x_t+μ_t</p>
+<p>Yt = Nilai tukar Dollar Amerika Serikat β0 = Koefisien konstanta β1 = Parameter Xt = Nilai ekspo μi = Error term</p>
+</section>
+</section>
+<section id="pembahasan" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="pembahasan"><span class="header-section-number">4</span> Pembahasan</h2>
+<section id="pembahasan-masalah" class="level3" data-number="4.1">
+<h3 data-number="4.1" class="anchored" data-anchor-id="pembahasan-masalah"><span class="header-section-number">4.1</span> Pembahasan masalah</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Tahun</th>
+<th>Nilai Ekspor (USD)</th>
+<th>Kurs</th>
+<th>Nilai Tukar(IDR)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2010</td>
+<td>246501286</td>
+<td>8991</td>
+<td>2216293062426</td>
+</tr>
+<tr class="even">
+<td>2011</td>
+<td>29671170</td>
+<td>9068</td>
+<td>269058169560</td>
+</tr>
+<tr class="odd">
+<td>2012</td>
+<td>628099</td>
+<td>9670</td>
+<td>6073717330</td>
+</tr>
+<tr class="even">
+<td>2013</td>
+<td>16439259</td>
+<td>12189</td>
+<td>200378127951</td>
+</tr>
+<tr class="odd">
+<td>2014</td>
+<td>1148482</td>
+<td>12440</td>
+<td>14287116080</td>
+</tr>
+<tr class="even">
+<td>2015</td>
+<td>7288379</td>
+<td>13795</td>
+<td>100543188305</td>
+</tr>
+<tr class="odd">
+<td>2016</td>
+<td>1345375</td>
+<td>13436</td>
+<td>18076458500</td>
+</tr>
+<tr class="even">
+<td>2017</td>
+<td>875579</td>
+<td>13548</td>
+<td>11862344292</td>
+</tr>
+<tr class="odd">
+<td>2018</td>
+<td>40</td>
+<td>14481</td>
+<td>579240</td>
+</tr>
+<tr class="even">
+<td>2019</td>
+<td>90640</td>
+<td>13901</td>
+<td>1259986640</td>
+</tr>
+<tr class="odd">
+<td>2020</td>
+<td>213386</td>
+<td>14105</td>
+<td>3009809530</td>
+</tr>
+<tr class="even">
+<td>2021</td>
+<td>236958</td>
+<td>14269</td>
+<td>3381153702</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="analisis-masalah" class="level3" data-number="4.2">
+<h3 data-number="4.2" class="anchored" data-anchor-id="analisis-masalah"><span class="header-section-number">4.2</span> Analisis masalah</h3>
+<p>Hasil pengaruh ekspor kakao ke Amerika Serikat terhadap nilai tukar rupiah tahun 2010-2021 menggunakan regresi multivariat. Hasilnya ditunjukkan sebagai berikut:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>dat<span class="ot">&lt;-</span><span class="fu">read_excel</span>(<span class="st">"Nilai Kurs Kakao.xlsx"</span>)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>reg<span class="ot">&lt;-</span><span class="fu">lm</span>(Y<span class="sc">~</span>X,<span class="at">data=</span>dat)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(reg)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = Y ~ X, data = dat)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-9.624e+09 -8.690e+09 -6.072e+09 -3.395e+09  4.341e+10 
+
+Coefficients:
+             Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept) 9.625e+09  5.405e+09   1.781    0.105    
+X           8.963e+03  7.522e+01 119.164   &lt;2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 1.752e+10 on 10 degrees of freedom
+Multiple R-squared:  0.9993,    Adjusted R-squared:  0.9992 
+F-statistic: 1.42e+04 on 1 and 10 DF,  p-value: &lt; 2.2e-16</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="kesimpulan" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="kesimpulan"><span class="header-section-number">5</span> Kesimpulan</h2>
+<p>Dari hasil data analisis kuantitatif yang telah diteliti, hasil ekspor kakao terhadap negara Amerika Serikat berpengaruh positif terhadap nilai tukar rupiah. Komoditi kakao pada tahun 2021 merupakan komoditi yang paling banyak di ekspor ke Amerika Serikat hingga mencapai US$216,41 juta atau setara 17,91% dari total nilai ekspor. Maka dari itu jika ekspor kakao ke negara Amerika Serikat berpengaruh positif terhadap nilai tukar rupiah maka hal tersebut dapat mempengaruhi nilai kurs rupiah terhadap USD.</p>
+</section>
+<section id="referensi" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="referensi"><span class="header-section-number">6</span> Referensi</h2>
+<p>Redaksi, T. (2022, May 11). Mengenal Apa Itu Ekspor Impor, Pengertian, Tujuan &amp; Contohnya. CNBC Indonesia; cnbcindonesia.com. https://www.cnbcindonesia.com/mymoney/20220511125907-72-338113/mengenal-apa-itu-ekspor-impor-pengertian-tujuan-contohnya Perdagangan Internasional. (2018). Google Books. https://books.google.co.id/books?hl=id&amp;lr=&amp;id=NJvFDwAAQBAJ&amp;oi=fnd&amp;pg=PR5&amp;dq=perdagangan+internasional&amp;ots=uwD64uUxOR&amp;sig=QeG-GVM2wpUolaCV3bQ_t9nfKak&amp;redir_esc=y#v=onepage&amp;q=perdagangan%20internasional&amp;f=false Memahami Apa Saja Manfaat Jual dan Beli Kurs Dolar. (2021). Cimbniaga.co.id. https://www.cimbniaga.co.id/id/inspirasi/perencanaan/memahami-apa-saja-manfaat-jual-dan-beli-kurs-dolar Cindy Mutia Annur. (2022, January 11). Daftar Negara Tujuan Utama Ekspor Kakao RI pada 2021, AS Terbesar. Katadata.co.id; Databoks. https://databoks.katadata.co.id/datapublish/2022/11/01/daftar-negara-tujuan-utama-ekspor-kakao-ri-pada-2021-as-terbesar#:~:text=Ekspor%20komoditas%20dengan%20kode%20 Badan Pusat Statistik. (2013). Bps.go.id. https://www.bps.go.id/indicator/13/284/4/kurs-tengah-beberapa-mata-uang-asing-terhadap-rupiah-di-bank-indonesia-dan-harga-emas-di-jakarta.html</p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
